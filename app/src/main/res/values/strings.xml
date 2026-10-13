@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HikingMobileApp</string>
+    <string name="welcome_message">Welcome to the HikingApp</string>
 </resources>
