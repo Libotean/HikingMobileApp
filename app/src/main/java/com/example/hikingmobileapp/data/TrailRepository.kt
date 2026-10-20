@@ -2,7 +2,7 @@ package com.example.hikingmobileapp.data
 
 import com.example.hikingmobileapp.model.Trail
 
-object TrailREpository {
+object TrailRepository {
     private val trails = listOf(
         Trail(1, "Varful Ignis", 8.0, "Banda rosie", "Ignis", "Descriere traseu..."),
         Trail(2, "Creasta Cocosului", 6.0, "Punct albastru", "Gutai", "Descriere traseu..."),
