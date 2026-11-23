@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HikingMobileApp</string>
+    <string name="add_favorite">Adauga la favorite</string>
+    <string name="remove_favorite">Elimina din favorite</string>
 </resources>
