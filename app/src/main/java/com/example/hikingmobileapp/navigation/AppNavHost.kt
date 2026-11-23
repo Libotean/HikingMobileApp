@@ -29,7 +29,12 @@ fun AppNavHost(modifier: Modifier = Modifier) {
             val detail: TrailDetail = backStackEntry.toRoute()
             val trail = TrailRepository.getById(detail.id)
             if (trail != null) {
-                TrailDetailScreen(trail = trail)
+                // shortcut: butonul nu salveaza inca nimic, se leaga de Room prin ViewModel
+                TrailDetailScreen(
+                    trail = trail,
+                    isFavorite = false,
+                    onToggleFavorite = {}
+                )
             }
         }
     }
