@@ -3,4 +3,6 @@
     <string name="add_favorite">Adauga la favorite</string>
     <string name="remove_favorite">Elimina din favorite</string>
     <string name="no_favorites">Nu ai trasee favorite inca</string>
+    <string name="trail_details">Detalii traseu</string>
+    <string name="back">Inapoi</string>
 </resources>
