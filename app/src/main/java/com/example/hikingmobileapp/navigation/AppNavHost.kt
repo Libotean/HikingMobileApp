@@ -33,7 +33,8 @@ fun AppNavHost(modifier: Modifier = Modifier) {
                 TrailDetailScreen(
                     trail = trail,
                     isFavorite = false,
-                    onToggleFavorite = {}
+                    onToggleFavorite = {},
+                    onBack = { navController.popBackStack() }
                 )
             }
         }
